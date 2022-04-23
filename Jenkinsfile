@@ -14,7 +14,7 @@ pipeline {
             }
             stage('Deploy') {
                   steps {
-                        echo "Deploying in Staging Area Area here can be QA , DEV UAT"
+                        echo "Deploying in Staging Area Area here can be QA , DEV ,UAT"
                   }
             }
             
