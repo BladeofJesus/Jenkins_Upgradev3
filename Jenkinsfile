@@ -17,10 +17,6 @@ pipeline {
                         echo "Deploying in Staging Area Area here can be QA , DEV UAT"
                   }
             }
-            stage('Deploy Production') {
-                  steps {
-                        echo "Deploying in Production Area"
-                  }
-            }
+            
       }
 }
